@@ -9,10 +9,12 @@ mixin section(section_name, data)
 				ul
 					- for (var j in d.comment)
 						li= d.comment[j]
-				p.
-					| d.where.name 
-					| d.where.where
-					| d.where.about
+				p
+					<strong>#{d.where.name}</strong>
+					| <br/>
+					| #{d.where.where} 
+					| <br/>
+					| #{d.where.about}
 		- }
 !!!
 html
