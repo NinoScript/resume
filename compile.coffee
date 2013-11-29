@@ -9,7 +9,7 @@ root[key] = data[key] for key of data
 
 # Render Jade file
 jade = require 'jade'
-html = jade.renderFile './template.jade', {pretty: true, globals:['work']}
+html = jade.renderFile './template.jade', pretty: true
 
 # Save file
 fs = require 'fs'
