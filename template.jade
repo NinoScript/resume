@@ -1,0 +1,51 @@
+mixin section(section_name, data)
+	.section
+		h1 #{section_name}
+		- for (var i in data) {
+			- var d = data[i]
+			.element
+				h2=  d.what
+				div= d.when
+				ul
+					- for (var j in d.comment)
+						li= d.comment[j]
+				small
+					div= d.where.name 
+					div= d.where.where
+					div= d.where.about
+		- }
+!!!
+html
+	head
+		meta(charset="utf-8")
+		title aló aló probando
+	body
+		.section
+			h1= who
+			dl
+				- for (var meta in contact)
+					dt= meta
+					dd= contact[meta]
+			mixin section("Education", studies)
+			mixin section("Work Experience", work)
+		.section
+			h1 Languages
+			- for (var lang_name in languages) {
+				- var experience = languages[lang_name]
+				.skill
+					dl
+						dt= lang_name
+						dd= experience
+			- }
+		.section
+			h1 Skills
+			- for (var skill_category in skills) {
+				- var s = skills[skill_category]
+				.skill
+					h2= skill_category
+					ul
+						- for (var j in s)
+							li= s[j]
+			- }
+		mixin section("Extracurricular Activities", extra)
+
