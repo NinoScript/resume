@@ -8,8 +8,8 @@ This project was inspired by [Ming-Ho Yee's](https://github.com/mhyee/resume) an
 Dependencies
 ------------
 
-* CoffeeScript
-* Node.js
+* CoffeeScript, the `coffee` compiler is needed
+* Node.js, the following modules are used:
 	* Jade
 	* JS-YAML
 	* Moment-Interval (not used yet)
