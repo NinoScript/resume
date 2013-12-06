@@ -14,7 +14,6 @@ for key of data
 		element = value[i]
 		w = element.when
 		if w != undefined
-			console.log w
 			interval = moment.interval(w)
 			element.interval = [
 				interval.start().format("MMMM YYYY")
@@ -28,3 +27,5 @@ html = jade.renderFile './template.jade', pretty: true
 # Save file
 fs = require 'fs'
 fs.writeFile '../out/curriculum.html', html
+
+console.log "Done compiling! :D"
