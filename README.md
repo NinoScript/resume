@@ -13,7 +13,7 @@ Dependencies
 * Node.js, the following modules are used:
 	* Jade
 	* JS-YAML
-	* Moment-Interval (not used yet)
+	* Moment-Interval
 
 Usage
 -----
