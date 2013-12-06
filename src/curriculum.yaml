@@ -1,0 +1,387 @@
+who:    Cristián Arenas Ulloa
+contact:
+    email:          cristian.arenas@gmail.com
+    phone:          +56 9 9556 5041
+    address:        Alvarez 1822 dept. 1110A, Viña del Mar
+    github:         github.com/NinoScript
+    stackoverflow:  stackoverflow.com/users/1904287
+    profile: >
+        I’ve been a self-taught programmer and
+        robotic hobbyist since I was 12 years old.
+        
+        I’m a bit competitive, that’s why I love
+        being surrounded by smart people.
+    about: >
+        I love both loose leaf tea and fresh ground coffee.
+        
+        I like to chat, watch movies and explore
+        new places while riding my bike.
+
+
+skills:
+    languages:
+      - what:   Spanish
+        comment:
+          - Native.
+        
+      - what:   English
+        comment:
+          - Advanced.
+        
+      - what:   Japanese
+        comment:
+          - Beginner.
+        
+    programming:
+      - what:   C
+        comment:
+          - Thaught a class about it.
+        
+      - what:   C++
+        comment:
+          - Experience with Boost.Asio.
+          - Used libCinder for personal project.
+          - Used openFrameworks and OpenNI for assignment.
+          - Intersted in learning Cling.
+        
+      - what:   Bash
+        comment:
+          - Real day to day shell scripts.
+          - Currently using ZSH instead.
+        
+      - what:   Ruby
+        comment:
+          - Written some internal development tools with it.
+          - Used for personal projects.
+        
+      - what:   Python
+        comment:
+          - Thaught a class about it.
+        
+      - what:   Arduino
+        comment:
+          - Used for personal projects.
+          - Thaught a class about it.
+        
+      - what:   Processing
+        comment:
+          - Used for personal projects.
+          
+      - what:   JavaScript
+        comment:
+          - Experience with D3.js and jQuery
+          - Used Node.js for personal project.
+          - Versed in CoffeeScript and it's Iced variant.
+        
+      - what:   Objective-C
+        comment:
+          - Used for personal projects.
+          - Not afraid of Objective-C++.
+    
+    hdl:
+      - what:   Verilog
+        comment:
+          - Made an ASIC which was ready to be sent to MOSIS for production.
+    
+    markup:
+      - what:   JSON & YAML
+        comment:
+          - This resume was written in YAML.
+        
+      - what:   CSS
+        comment:
+          - Have used LESS and SASS to generate it.
+        
+      - what:   HTML
+        comment:
+          - Have used Jade to generate it.
+        
+      - what:   LATEX
+        comment:
+          - Writing my thesis in it.
+        
+      - what:   XML
+        comment:
+          - Basic understading of XSD.
+    
+    os:
+      - what:   Mac OS X
+        comment:
+          - Been using Mac OS since I was born, I love it
+        
+      - what:   Linux
+        comment:
+          - Used Ubuntu exclusively for a year as an experiment.
+        
+      - what:   Windows
+        comment:
+          - "Have used it, don't like it, will use it if required to"
+    
+    software:
+      - what:   TextMate
+        comment:
+          - My text editor of choise, I just love it.
+        
+      - what:   XCode
+        comment:
+          - Loveley IDE, if it only had a better editor.
+        
+      - what:   Vim
+        comment:
+          - I know enough to be productive in it.
+          - Right now I'm using YADR, but I also like spf13
+        
+      - what:   Sublime Text
+        comment:
+          - Somewhat proficient in it.
+        
+      - what:   Eclipse
+        comment:
+          - Used for embedded AVR development.
+        
+      - what:   Frogatto
+        comment:
+          - Used the engine for my own game.
+          - Official coordinator of English->Spanish translation.
+        
+      - what:   LyX
+        comment:
+          - Used this for all my reports.
+        
+      - what:   Inkscape
+        comment:
+          - Not an artist, but I know how to use vectors.
+        
+      - what:   Matlab
+        comment:
+          - Used heavily in my university.
+        
+      - what:   Visual Studio
+        comment:
+          - Have helped others use it.
+        
+      - what:   Automator
+        comment:
+          - Used for personal projects.
+        
+      - what:   Eagle
+        comment:
+          - Used for personal projects.
+        
+      - what:   LTspice
+        comment:
+          - Analog simulation experience.
+        
+places:
+  - &moblox
+    name:   Moblox.io
+    where:  Santiago
+    comment:
+      - Smartphone apps development.
+    
+  - &ingemas
+    name:   Ingemás S.A.
+    where:  Quilpué
+    comment:
+      - Logistics solutions.
+    
+  - &ciac
+    name:   CIAC
+    where:  Valparaíso
+    comment:
+      - Branch of UTFSM dedicated to help freshmen.
+    
+  - &duoc
+    name:   Duoc UC, San Joaquín
+    where:  Santiago
+    comment:
+      - Important Career School in Chile.
+    
+  - &synopsys
+    name:   Synopsys Chile R&D Center
+    where:  Santiago
+    comment:
+      - One of the largest companies in the EDA industry.
+    
+  - &wiseconn
+    name:   WiseConn Engineering S.A.
+    where:  Viña del Mar
+    comment:
+      - Efficient water distribution and irrigation systems.
+    
+  - &utfsm
+    name:   Universidad Técnica Federico Santa María
+    where:  Valparaíso
+    comment:
+      - One of the most important universities in Chile.
+    
+  - &vinadelmar
+    name:   ""
+    where:  Viña del Mar
+    comment: []
+    
+  - &pucv
+    name:   Pontificia Universidad Católica de Valparaíso
+    where:  Valparaíso
+    comment:
+      - Important university in Chile.
+    
+  - &dospuntocero
+    name:   Dospuntocero ltda.
+    where:  Viña del Mar
+    comment:
+      - Web development agency focused in web consulting.
+
+studies:
+  - what:   Electronics Engineer Computers Major student
+    where:  *utfsm
+    when:   2008/2013
+    
+  - what:   Preliminar Program for Engineering (PPI)
+    where:  *utfsm
+    when:   2007/2007
+
+work:
+  - what:   Supervisor
+    where:  *ingemas
+    when:   2013-09/2013-12
+    comment: [Bla, bla, bla...]
+    
+  - what:   Programming Tutor
+    where:  *ciac
+    when:   2013-04/2013-11
+    comment:
+      - Programming lessons in Python for UTFSM freshmen.
+    
+  - what:   Data Visualization Engineer
+    where:  *dospuntocero
+    when:   2012-12/2013-02
+    comment:
+      - Data visualization using D3.js for the WHO, financed by the EU.
+    
+  - what:   R&D Engineer Intern
+    where:  *synopsys
+    when:   2012-01/2012-03
+    comment:
+      - Worked on the scalability of CATS.
+      - Debugged a matrix transformation firmware.
+      - Implemented a multicast file transfer protocol using Boost.
+    
+  - what:   Firmware Engineer
+    where:  *wiseconn
+    when:   2011-03/2011-08
+    comment:
+      - Made an MSP430 bootloader to update firmware via SD card and/or XBee.
+      - Polished and documented Ruby command line tools.
+    
+  - what:   R&D Engineer Intern
+    where:  *wiseconn
+    when:   2011-01/2011-02
+    comment:
+      - Improved energy efficiency by reducing access to peripherals.
+      - Developed a series of Ruby command line tools for coworkers.
+    
+  - what:   Programming Teacher
+    where:  *utfsm
+    when:   2009-7/2010-12
+    comment:
+      - Basic Lego RCX programming with NQC.
+      - Up to 103 students, ranging from 12 to 50 years.
+    
+  - what:   Programming Teacher Assistant
+    where:  *utfsm
+    when:   2008-2/2009-6
+    comment:
+      - Basic Lego RCX programming with NQC.
+      - Designed lab experiences.
+    
+  - what:   Home Tutor
+    where:  *vinadelmar
+    when:   2007/2010
+    comment:
+      - Private math and physics lessons for high-school students.
+    
+  - what:   Software Developer
+    where:  *dospuntocero
+    when:   2005/2007
+    comment:
+      - Worked for big clients like “Salo S.A.” and “El Faro maritime services”.
+      - Worked in Web 2.0 oriented billing system using ActionScript.
+
+extra:
+  - what:   First prize at AIE Robotics Competition
+    where:  *duoc
+    when:   2012-11-14/15
+    comment:
+      - Line following.
+      - Grid solving.
+    
+  - what:   Competitor at Electronics Show
+    where:  *utfsm
+    when:   2010-7/10
+    comment:
+      - Project Manager of competing group in advanced category.
+      - Designed an almost-working clone of the game “Tennis for Two”.
+    
+  - what:   Robotics Competition Organizer
+    where:  *utfsm
+    when:   2008/2011
+    comment:
+      - Member of the "Robotics Center", 100% composed by students.
+    
+  - what:   Collaborator in “JIM” (Freshman integration day)
+    where:  *utfsm
+    when:   2008/2010
+    comment:
+      - Worked side by side with a few dozen other people.
+      - Welcome more than 1000 freshmen with games and activities.
+    
+  - what:   Basic Lego RCX programming with NQC
+    where:  *utfsm
+    when:   2007-7/2007-12
+    comment:
+      - Learned to program Lego NXT robots in "Not Quite C".
+    
+  - what:   Programming and Robotics Workshop
+    where:  *pucv
+    when:   2006/2006
+    comment:
+      - Learned to program Lego NXT robots in Java.
+      - Won internal competition at end of workshop.
+
+references:
+  - who:    Edward Alvarado
+    what:   CTO and Developer
+    where:  *moblox
+    contact:
+        phone:  +56 9 8505 5474
+        email:  ac.edward@gmail.com
+    comment:
+      - Worked under his direct supervision at WiseConn.
+      - Worked together at Synopsys
+    
+  - who:    Carlos Acosta
+    what:   Senior R&D Engineer
+    where:  *synopsys
+    contact:
+        phone:  +56 9 8199 3729
+        email:  carlos.acosta@gmail.com
+    comment:
+      - Worked under his direct supervision at Synopsys.
+    
+  - who:    Luis Ojeda
+    what:   Manager
+    where:  *ingemas
+    contact:
+        phone:  +56 9 8548 3347
+        email:  luisjojeda1@gmail.com
+    comment:
+      - Worked under his direct supervision at Ingemás.
+      - Worked together organizing the Robotics Competition at UTFSM.
+  - who:    Francisco Arenas
+    what:   Owner and Frontend Designer
+    where:  *dospuntocero
+    contact:
+        phone:  +56 9 9352 7553
+        email:  francisco.arenas@dospuntocero.cl
+    
