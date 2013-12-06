@@ -26,6 +26,6 @@ Or using `watch`:
 
 	$ watch
 
-[mhyee]   : https://github.com/mhyee/resume
-[divad12] : https://github.com/divad12/resume
-[watch]   : https://github.com/NinoScript/watch
+[mhyee]:   https://github.com/mhyee/resume
+[divad12]: https://github.com/divad12/resume
+[watch]:   https://github.com/NinoScript/watch
