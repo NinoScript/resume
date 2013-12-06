@@ -27,16 +27,18 @@ html
 
 	body
 		.row
-			h1= who
+			.row
+				h1= who
 			- for (var meta in contact)
 				section.small-12.medium-6.columns
 					p
 						<strong>#{meta}</strong>
 						| <br/>
 						| #{contact[meta]}
-		mixin section("Education", studies)
-		mixin section("Work Experience", work)
-
+		.row
+			mixin section("Education", studies)
+		.row
+			mixin section("Work Experience", work)
 		.row
 				h2 Skills
 				- for (var skill_category in skills) {
@@ -44,7 +46,9 @@ html
 					section.small-6.columns
 						mixin section(skill_category, s)
 				- }
-		mixin section("Extracurricular Activities", extra)
+		.row
+			mixin section("Extracurricular Activities", extra)
+			
 		script(type='text/javascript', src="../assets/js/jquery.js")
 		script(type='text/javascript', src="../assets/js/custom.modernizr.js")
 		script(type='text/javascript', src="../assets/js/foundation.all.js")

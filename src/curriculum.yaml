@@ -89,7 +89,7 @@ skills:
       - what:   Frogatto
         comment:
           - Used the engine for my own game.
-          - Official coordinator of English->Spanish translation.
+          - Official coordinator of Spanish translation.
           
       - what:   LyX
         comment:
@@ -228,6 +228,13 @@ places:
     comment:
       - Important university in Chile.
       
+  - &vinadelmar
+    name:     Viña del Mar
+    fullname: Viña del Mar
+    where:    Chile
+    comment:
+      - Touristic city.
+      
   - &dospuntocero
     name:     Dospuntocero
     fullname: Dospuntocero ltda.
@@ -299,7 +306,7 @@ work:
       - Designed lab experiences.
       
   - what:   Home Tutor
-    # where:  *nowhere
+    where:  *vinadelmar
     when:   2007/2010
     comment:
       - Private math and physics lessons for high-school students.
