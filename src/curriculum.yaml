@@ -21,7 +21,7 @@ skills:
     programming:
       - what:   C
         comment:
-          - Thaught a class about it.
+          - Taught a class about it.
           
       - what:   C++
         comment:
@@ -42,12 +42,12 @@ skills:
           
       - what:   Python
         comment:
-          - Thaught a class about it.
+          - Taught a class about it.
           
       - what:   Arduino
         comment:
           - Used for personal projects.
-          - Thaught a class about it.
+          - Taught a class about it.
           
       - what:   Processing
         comment:
@@ -71,7 +71,7 @@ skills:
           
       - what:   XCode
         comment:
-          - Loveley IDE, if it only had a better editor.
+          - Lovely IDE, if it only had a better editor.
           
       - what:   Vim
         comment:
