@@ -1,0 +1,77 @@
+view: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>{who}'s CV</title>
+        <link type="text/css" rel="stylesheet" href="../assets/css/foundation.min.css">
+    </head>
+    <body>
+        <article>
+            <h1 class="row">{who}</h1>
+            <section class="row">
+                {@iterate:contact}
+                <div class="small-12 medium-6 columns">
+                    <h4>{key}</h4>
+                    <p>{value}</p>
+                </div>
+                {/iterate}
+            </section>
+        </article>
+        
+        {>section:studies title="Education"/}
+        {>section:work    title="Work Experience"/}
+        <article>
+            <h2 class="row">Skills</h2>
+            <section class="row">
+            {#skills}
+                <div class="small-6 columns">
+                <div class="row">
+                    {>skill/}
+                </div></div>
+            {/skills}
+            </section>
+        </article>
+        {>section:extra title="Extracurricular Activities"/}
+        
+        <script type="text/javascript" src="../assets/js/jquery.js"></script>
+        <script type="text/javascript" src="../assets/js/custom.modernizr.js"></script>
+        <script type="text/javascript" src="../assets/js/foundation.all.js"></script>
+        <script type="text/javascript">
+            $(document).foundation().foundation('joyride', 'start');
+        </script>
+    </body>
+    </html>
+partials:
+    section: |
+        <article>
+            <h2 class="row">{title}</h2>
+            {>subsection/}
+        </article>
+    subsection: |
+        {#.}
+        <section class="row">
+            <div class="small-4 columns">
+                <h4>{what}</h4>
+                {#when}
+                <p>{interval[0]} – {interval[1]}</p>
+                {/when}
+                {#where}
+                <p data-tooltip class="has-tip"
+                   title="<strong>{fullname}</strong>, {where} <br/> {comment[0]}">
+                    @ {name}
+                </p>
+                {/where}
+            </div>
+            <div class="small-8 columns">
+                <ul>
+                {#comment}
+                    <li>{.}</li>
+                {/comment}
+                </ul>
+            </div>
+        </section>
+        {/.}
+    skill: |
+        <h3 class="row">{kind}</h3>
+        {>subsection:info/}

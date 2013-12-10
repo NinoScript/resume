@@ -2,4 +2,4 @@
 
 cd ./src
 ./compile.coffee
-open ../out/curriculum.html
+open -g ../out/curriculum.html

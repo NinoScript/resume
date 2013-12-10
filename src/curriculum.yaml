@@ -18,7 +18,8 @@ contact:
     stackoverflow:  stackoverflow.com/users/1904287
         
 skills:
-    programming:
+  - kind: Programming Languages
+    info:
       - what:   C
         comment:
           - Taught a class about it.
@@ -63,8 +64,9 @@ skills:
         comment:
           - Used for personal projects.
           - Not afraid of Objective-C++.
-          
-    software:
+
+  - kind: Software
+    info:
       - what:   TextMate
         comment:
           - My text editor of choise, I just love it.
@@ -118,8 +120,9 @@ skills:
       - what:   LTspice
         comment:
           - Analog simulation experience.
-          
-    languages:
+
+  - kind: Languages
+    info:
       - what:   Spanish
         comment:
           - Native.
@@ -131,8 +134,9 @@ skills:
       - what:   Japanese
         comment:
           - Beginner.
-          
-    os:
+
+  - kind: Operating System
+    info:
       - what:   Mac OS X
         comment:
           - Been using Mac OS since I was born, I love it
@@ -144,8 +148,9 @@ skills:
       - what:   Windows
         comment:
           - "Have used it, don't like it, will use it if required to"
-          
-    markup:
+
+  - kind: Markup Languages
+    info:
       - what:   JSON & YAML
         comment:
           - This resume was written in YAML.
@@ -165,8 +170,9 @@ skills:
       - what:   XML
         comment:
           - Basic understading of XSD.
-          
-    hdl:
+
+  - kind: Hardware Description Languages
+    info:
       - what:   Verilog
         comment:
           - Made an ASIC which was ready to be sent to MOSIS for production.
@@ -245,11 +251,11 @@ places:
 studies:
   - what:   Electronics Engineer Computers Major student
     where:  *utfsm
-    when:   2008/2013
+    when:   2008-02/2013-12
     
   - what:   Preliminar Program for Engineering (PPI)
     where:  *utfsm
-    when:   2007/2007
+    when:   2007-04/2007-11
 
 work:
   - what:   Supervisor
@@ -293,27 +299,27 @@ work:
       
   - what:   Programming Teacher
     where:  *utfsm
-    when:   2009-7/2010-12
+    when:   2009-07/2010-12
     comment:
       - Basic Lego RCX programming with NQC.
       - Up to 103 students, ranging from 12 to 50 years.
       
   - what:   Programming Teacher Assistant
     where:  *utfsm
-    when:   2008-2/2009-6
+    when:   2008-02/2009-06
     comment:
       - Basic Lego RCX programming with NQC.
       - Designed lab experiences.
       
   - what:   Home Tutor
     where:  *vinadelmar
-    when:   2007/2010
+    when:   2007-04/2010-08
     comment:
       - Private math and physics lessons for high-school students.
       
   - what:   Software Developer
     where:  *dospuntocero
-    when:   2005/2007
+    when:   2005-01/2007-11
     comment:
       - Worked for big clients like “Salo S.A.” and “El Faro maritime services”.
       - Worked in Web 2.0 oriented billing system using ActionScript.
@@ -321,40 +327,40 @@ work:
 extra:
   - what:   First prize at AIE Robotics Competition
     where:  *duoc
-    when:   2012-11-14/15
+    when:   2012-11-14/2012-11-15
     comment:
       - Line following.
       - Grid solving.
       
   - what:   Competitor at Electronics Show
     where:  *utfsm
-    when:   2010-7/10
+    when:   2010-07/2010-10
     comment:
       - Project Manager of competing group in advanced category.
       - Designed an almost-working clone of the game “Tennis for Two”.
       
   - what:   Robotics Competition Organizer
     where:  *utfsm
-    when:   2008/2011
+    when:   2008-04/2011-11
     comment:
       - Member of the "Robotics Center", 100% composed by students.
       
   - what:   Collaborator in “JIM” (Freshman integration day)
     where:  *utfsm
-    when:   2008/2010
+    when:   2008-01/2010-03
     comment:
       - Worked side by side with a few dozen other people.
       - Welcome more than 1000 freshmen with games and activities.
       
   - what:   Basic Lego RCX programming with NQC
     where:  *utfsm
-    when:   2007-7/2007-12
+    when:   2007-07/2007-12
     comment:
       - Learned to program Lego NXT robots in "Not Quite C".
       
   - what:   Programming and Robotics Workshop
     where:  *pucv
-    when:   2006/2006
+    when:   2006-04/2006-10
     comment:
       - Learned to program Lego NXT robots in Java.
       - Won internal competition at end of workshop.

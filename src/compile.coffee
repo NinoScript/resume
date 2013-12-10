@@ -7,6 +7,7 @@ data = require './curriculum.yaml'
 # Globals for template code convenience
 root[key] = data[key] for key of data
 
+# TODO: check if this could go inside dust, as a helper or filter maybe
 moment = require './moment-interval'
 for key of data
 	value = data[key]
@@ -20,12 +21,24 @@ for key of data
 				interval.end()  .format("MMMM YYYY")
 			]
 
-# Render Jade file
-jade = require 'jade'
-html = jade.renderFile './template.jade', pretty: true
 
-# Save file
-fs = require 'fs'
-fs.writeFile '../out/curriculum.html', html
+dust = require 'dustjs-linkedin'
+help = require 'dustjs-helpers'
 
-console.log "Done compiling! :D"
+template = require './template.yaml'
+# CoffeeScript = require 'coffee-script'
+# for lambda of all.filters
+#     dust.filters[lambda] = CoffeeScript.eval(all.filters[lambda])
+for partial of template.partials
+    dust.loadSource dust.compile template.partials[partial], partial
+
+# Disable white space compression
+# dust.optimizers.format = (ctx, node) -> node
+
+compiled = dust.compile template.view, "template"
+dust.loadSource compiled
+dust.render "template", data, (err, html) ->
+    # Save file
+    fs = require 'fs'
+    fs.writeFile '../out/curriculum.html', html, ->
+        console.log "Done compiling! :D"

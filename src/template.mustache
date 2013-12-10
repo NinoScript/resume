@@ -1,0 +1,55 @@
+mixin section(section_name, data)
+	.section.row
+		h2 #{section_name}
+		{{#extra}}
+			.small-4.columns
+				h4 {{what}}
+				div {{interval[0]}} – {{interval[1]}}
+				{{#where}}
+				p.has-tip(data-tooltip="",
+					title "<strong>{{where.fullname}}</strong>, {{where.where}} <br/> {{where.comment[0]}}")
+					|  @ {{where.name}}
+				{{/where}}
+			.small-8.columns
+				ul
+				{{#comment}}
+					li {{comment}}
+					{{/comment}}
+		{{/extra}}
+!!!
+html
+	head
+		meta(charset="utf-8")
+		title Cristián Arenas Ulloa
+		link(type="text/css", rel="stylesheet", href="../assets/css/foundation.min.css")
+
+	body
+		.row
+			.row
+				h1= who
+			- for (var meta in contact)
+				section.small-12.medium-6.columns
+					p
+						<strong>#{meta}</strong>
+						| <br/>
+						| #{contact[meta]}
+		.row
+			mixin section("Education", studies)
+		.row
+			mixin section("Work Experience", work)
+		.row
+				h2 Skills
+				- for (var skill_category in skills) {
+					- var s = skills[skill_category]
+					section.small-6.columns
+						mixin section(skill_category, s)
+				- }
+		.row
+			mixin section("Extracurricular Activities", extra)
+			
+		script(type='text/javascript', src="../assets/js/jquery.js")
+		script(type='text/javascript', src="../assets/js/custom.modernizr.js")
+		script(type='text/javascript', src="../assets/js/foundation.all.js")
+		script(type='text/javascript')
+			$(document).foundation().foundation('joyride', 'start');
+
