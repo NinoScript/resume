@@ -21,6 +21,7 @@ for key of data
 				interval.end()  .format("MMMM YYYY")
 			]
 
+fs = require 'fs'
 
 dust = require 'dustjs-linkedin'
 help = require 'dustjs-helpers'
@@ -38,7 +39,24 @@ for partial of template.partials
 compiled = dust.compile template.view, "template"
 dust.loadSource compiled
 dust.render "template", data, (err, html) ->
-    # Save file
-    fs = require 'fs'
-    fs.writeFile '../out/curriculum.html', html, ->
-        console.log "Done compiling! :D"
+	# Save file
+	fs.writeFile '../out/curriculum.html', html, ->
+		console.log "Done compiling first template! :D"
+
+
+# Reloading dust to unload partials
+dust2 = require 'dustjs-linkedin'
+
+template2 = require './template2.yaml'
+for partial of template.partials
+    dust2.loadSource dust2.compile template.partials[partial], partial
+
+# Disable white space compression
+dust.optimizers.format = (ctx, node) -> node
+
+compiled2 = dust2.compile template2.view, "template"
+dust2.loadSource compiled2
+dust2.render "template", data, (err, html) ->
+	# Save file
+	fs.writeFile '../out/curriculum.tex', html, ->
+		console.log "Done compiling second template! :D"
