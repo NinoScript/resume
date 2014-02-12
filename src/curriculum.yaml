@@ -26,9 +26,9 @@ skills:
           
       - what:   C++
         comment:
-          - I have experience with Boost.Asio.
-          - I've used libCinder for personal project.
-          - I've used openFrameworks and OpenNI for assignment.
+          - Experience with Boost.Asio.
+          - Used libCinder for personal project.
+          - Used openFrameworks and OpenNI for assignment.
           - Interested in learning Cling.
           
       - what:   Bash
@@ -38,7 +38,7 @@ skills:
           
       - what:   Ruby
         comment:
-          - I've written some internal development tools with it.
+          - Written some internal development tools with it.
           - Used for personal projects.
           
       - what:   Python
@@ -57,12 +57,12 @@ skills:
       - what:   JavaScript
         comment:
           - Experience with D3.js and jQuery
-          - I used Node.js for personal project.
+          - Used Node.js for personal project.
           - Versed in CoffeeScript and it's Iced variant.
           
       - what:   Objective-C
         comment:
-          - I worked on real apps while in Moblox
+          - Worked on real apps while in Moblox
           - Not afraid of Objective-C++.
 
   - kind: Software
@@ -158,15 +158,15 @@ skills:
           
       - what:   CSS
         comment:
-          - I've used LESS and SASS to generate it.
+          - Used LESS and SASS to generate it.
           
       - what:   HTML
         comment:
-          - I've used Jade, dust.js and Mustache to generate it.
+          - Used Jade, dust.js and Mustache to generate it.
           
       - what:   LATEX
         comment:
-          - I'm currently writing my thesis in it.
+          - Currently writing my thesis in it.
           
       - what:   XML
         comment:
@@ -261,11 +261,12 @@ studies:
 work:
   - what:   iOS Developer
     where:  *moblox
-    when:   2013-09/2013-12
+    when:   2013-12/2014-2
     comment:
       - A lot of bug fixing on spaghetti code.
       - Architecture development.
       - Managed a group of 3 interns.
+      - Currently working here.
 
   - what:   Supervisor SIMCE
     where:  *ingemas
