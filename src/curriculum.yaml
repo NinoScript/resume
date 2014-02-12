@@ -26,10 +26,10 @@ skills:
           
       - what:   C++
         comment:
-          - Experience with Boost.Asio.
-          - Used libCinder for personal project.
-          - Used openFrameworks and OpenNI for assignment.
-          - Intersted in learning Cling.
+          - I have experience with Boost.Asio.
+          - I've used libCinder for personal project.
+          - I've used openFrameworks and OpenNI for assignment.
+          - Interested in learning Cling.
           
       - what:   Bash
         comment:
@@ -38,7 +38,7 @@ skills:
           
       - what:   Ruby
         comment:
-          - Written some internal development tools with it.
+          - I've written some internal development tools with it.
           - Used for personal projects.
           
       - what:   Python
@@ -57,28 +57,28 @@ skills:
       - what:   JavaScript
         comment:
           - Experience with D3.js and jQuery
-          - Used Node.js for personal project.
+          - I used Node.js for personal project.
           - Versed in CoffeeScript and it's Iced variant.
           
       - what:   Objective-C
         comment:
-          - Used for personal projects.
+          - I worked on real apps while in Moblox
           - Not afraid of Objective-C++.
 
   - kind: Software
     info:
       - what:   TextMate
         comment:
-          - My text editor of choise, I just love it.
+          - My text editor of choice, I just love it.
           
-      - what:   XCode
+      - what:   Xcode
         comment:
-          - Lovely IDE, if it only had a better editor.
+          - My IDE of choice, many hours invested on being productive in it.
           
       - what:   Vim
         comment:
           - I know enough to be productive in it.
-          - Right now I'm using YADR, but I also like spf13
+          - Right now I'm using spf13, but I also like YADR
           
       - what:   Sublime Text
         comment:
@@ -90,16 +90,17 @@ skills:
           
       - what:   Frogatto
         comment:
-          - Used the engine for my own game.
+          - Used the engine in my own game for an assignment.
           - Official coordinator of Spanish translation.
           
       - what:   LyX
         comment:
-          - Used this for all my reports.
+          - Used this for all my reports while studying.
           
-      - what:   Inkscape
+      - what:   Flash (and other vector software like Inkscape)
         comment:
-          - Not an artist, but I know how to use vectors.
+          - Not an artist, but I know how to use beziers.
+          - Worked on real commercial projects in Flash, when it had only AS2.
           
       - what:   Matlab
         comment:
@@ -107,7 +108,7 @@ skills:
           
       - what:   Visual Studio
         comment:
-          - Have helped others use it.
+          - Have helped others use and configure it.
           
       - what:   Automator
         comment:
@@ -139,7 +140,7 @@ skills:
     info:
       - what:   Mac OS X
         comment:
-          - Been using Mac OS since I was born, I love it
+          - I've been using Mac OS since I was born, I love it
           
       - what:   Linux
         comment:
@@ -147,7 +148,7 @@ skills:
           
       - what:   Windows
         comment:
-          - "Have used it, don't like it, will use it if required to"
+          - I have used it, but I don't like it; I will use it if I'm required to.
 
   - kind: Markup Languages
     info:
@@ -157,19 +158,19 @@ skills:
           
       - what:   CSS
         comment:
-          - Have used LESS and SASS to generate it.
+          - I've used LESS and SASS to generate it.
           
       - what:   HTML
         comment:
-          - Have used Jade to generate it.
+          - I've used Jade, dust.js and Mustache to generate it.
           
       - what:   LATEX
         comment:
-          - Writing my thesis in it.
+          - I'm currently writing my thesis in it.
           
       - what:   XML
         comment:
-          - Basic understading of XSD.
+          - I have a very basic understanding of XSD.
 
   - kind: Hardware Description Languages
     info:
@@ -253,15 +254,25 @@ studies:
     where:  *utfsm
     when:   2008-02/2013-12
     
-  - what:   Preliminar Program for Engineering (PPI)
+  - what:   Preliminary Program for Engineering (PPI)
     where:  *utfsm
     when:   2007-04/2007-11
 
 work:
-  - what:   Supervisor
+  - what:   iOS Developer
+    where:  *moblox
+    when:   2013-09/2013-12
+    comment:
+      - A lot of bug fixing on spaghetti code.
+      - Architecture development.
+      - Managed a group of 3 interns.
+
+  - what:   Supervisor SIMCE
     where:  *ingemas
     when:   2013-09/2013-12
-    comment: [Bla, bla, bla...]
+    comment:
+      - Application of Chilean ministry of education's quality evaluation system.
+      - Managed a group of 13 people applying the test in 10 different schools.
     
   - what:   Programming Tutor
     where:  *ciac
@@ -287,7 +298,7 @@ work:
     where:  *wiseconn
     when:   2011-03/2011-08
     comment:
-      - Made an MSP430 bootloader to update firmware via SD card and/or XBee.
+      - Made an MSP430 boot-loader to update firmware via SD card and/or XBee.
       - Polished and documented Ruby command line tools.
       
   - what:   R&D Engineer Intern
@@ -375,6 +386,7 @@ references:
     comment:
       - Worked under his direct supervision at WiseConn.
       - Worked together at Synopsys
+      - Worked under his direct supervision at Moblox.
       
   - who:    Carlos Acosta
     what:   Senior R&D Engineer
@@ -396,7 +408,7 @@ references:
       - Worked together organizing the Robotics Competition at UTFSM.
       
   - who:    Francisco Arenas
-    what:   Owner and Frontend Designer
+    what:   Owner and Front-end Designer
     where:  *dospuntocero
     contact:
         phone:  +56 9 9352 7553
