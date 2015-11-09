@@ -1,16 +1,16 @@
 who:    Cristián Arenas Ulloa
 contact:
     profile: >
-        I’ve been a self-taught programmer and
-        robotic hobbyist since I was 12 years old
+        I've been a self-taught programmer since I was 12 years old.
         
-        I’m a bit competitive, that’s why I love
-        being surrounded by smart people.
+        Once I started working with iOS, I instantly had a love-hate relationship with Objective-C and Cocoa Touch;
+        I fought hard against returning nil, casting id types and abuse of tags in existing codebases.
+        I'm very excited about Swift, and I hope the stronger type system will make our lives easier in the long run.
+
     about me: >
         I love both loose leaf tea and fresh ground coffee.
         
-        I like to chat, watch movies and explore
-        new places while riding my bike.
+        I like to chat, watch movies, learn things, and explore new places by bike.
     email:          cristian.arenas@gmail.com
     phone:          +56 9 9556 5041
     address:        Alvarez 1822 dept. 1110A, Viña del Mar
@@ -64,6 +64,10 @@ skills:
         comment:
           - Worked on real apps while in Moblox
           - Not afraid of Objective-C++.
+          
+      - what:   Swift
+        comment:
+          - 
 
   - kind: Software
     info:
@@ -91,7 +95,7 @@ skills:
       - what:   Frogatto
         comment:
           - Used the engine in my own game for an assignment.
-          - Official coordinator of Spanish translation.
+          - Was the official coordinator of Spanish translation for a few years.
           
       - what:   LyX
         comment:
@@ -100,7 +104,7 @@ skills:
       - what:   Flash (and other vector software like Inkscape)
         comment:
           - Not an artist, but I know how to use beziers.
-          - Worked on real commercial projects in Flash, when it had only AS2.
+          - Worked on real commercial projects in Flash, back when it used AS2.
           
       - what:   Matlab
         comment:
@@ -162,7 +166,7 @@ skills:
           
       - what:   HTML
         comment:
-          - Used Jade, dust.js and Mustache to generate it.
+          - Used Jade, dust.js, and Mustache to generate it.
           
       - what:   LATEX
         comment:
@@ -250,7 +254,7 @@ places:
       - Web development agency focused in web consulting.
       
 studies:
-  - what:   Electronics Engineer Computers Major student
+  - what:   Bachelor of Science in Computer Engineering
     where:  *utfsm
     when:   2008-02/2013-12
     
@@ -259,14 +263,25 @@ studies:
     when:   2007-04/2007-11
 
 work:
+  - what:   Freelancer iOS Developer
+    where:  *vinadelmar
+    when:   2015-6/2015-11
+    comment:
+      - Fixed bugs on existing apps.
+
+  - what:   3D Web Visualizations
+    where:  *dospuntocero
+    when:   2015-4/2015-9
+    comment:
+      - Made interactive 3D visualization with three.js in TypeScript.
+
   - what:   iOS Developer
     where:  *moblox
     when:   2013-12/2014-2
     comment:
-      - A lot of bug fixing on spaghetti code.
-      - Architecture development.
+      - Lots of bug fixing on unfamiliar code.
+      - Software Architecture development.
       - Managed a group of 3 interns.
-      - Currently working here.
 
   - what:   Supervisor SIMCE
     where:  *ingemas
@@ -349,7 +364,7 @@ extra:
     when:   2010-07/2010-10
     comment:
       - Project Manager of competing group in advanced category.
-      - Designed an almost-working clone of the game “Tennis for Two”.
+      - Designed an almost-working fully-analog clone of the historic game “Tennis for Two”.
       
   - what:   Robotics Competition Organizer
     where:  *utfsm
@@ -378,8 +393,16 @@ extra:
       - Won internal competition at end of workshop.
       
 references:
+  - who:    Nicolás Arqeros
+    what:   Co-founder at Moblox
+    where:  *moblox
+    contact:
+        email:  nykholas@gmail.com
+    comment:
+      - Worked under his direct supervision at Moblox.
+	  
   - who:    Edward Alvarado
-    what:   CTO and Developer
+    what:   Co-founder at Moblox
     where:  *moblox
     contact:
         phone:  +56 9 8505 5474
